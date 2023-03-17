@@ -1,0 +1,8 @@
+[package]
+name = "pis-client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { git="https://github.com/bevyengine/bevy.git", rev="7d5f89cca16dcaea145a20d50e39ec4260d1852c", default-features=true}
+pis-game = { path="../game" }
